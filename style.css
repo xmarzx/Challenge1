@@ -1,0 +1,116 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background: #F3F5FC;
+}
+.container{ 
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;  
+    
+}
+.logo{
+    width: 100%;
+    float: left;
+    
+}
+.left{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+    
+}
+.right{
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+    background: white;
+    
+}
+
+.left-button{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+   
+}
+.logoImg{
+    margin-top: 1%;
+    float: inherit;
+    margin-left: 5%;
+}
+.tittle{
+    float: inherit;
+    margin-left: 20%;
+}
+.txtInput{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0a3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #F3F5FC;
+    resize: none;
+}
+
+#persona{
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+}
+#texto1{
+    margin-left: 7%;
+    margin-right: 5%;
+}
+#texto2{
+    float: left;
+    margin-left: 10%;
+    color: #0a3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    resize: none;
+}
+#btn-encriptar{
+    cursor: pointer;
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0a3871;
+}
+#btn-desencriptar{
+    cursor: pointer;
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 8%;
+    background: #D8DFE8;
+}
+#btn-copiar{
+    cursor: pointer;
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    display: none;
+}
+#txtMinusculas{
+    margin-left: 10%;
+}
